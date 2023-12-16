@@ -1,5 +1,9 @@
 {
   "canisters": {
+    "first_canister": {
+      "main": "main.mo",
+      "type": "motoko"
+    },
     "level_1": {
       "main": "levels/level_1/project/main.mo",
       "type": "motoko"
@@ -23,7 +27,7 @@
   },
   "defaults": {
     "build": {
-      "packtool": "mops sources"
+      "packtool": ""
     }
   }
 }
