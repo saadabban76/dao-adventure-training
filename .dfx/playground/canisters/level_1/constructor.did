@@ -1,0 +1,10 @@
+type DAO = 
+ service {
+   addGoal: (text) -> ();
+   getGoals: () -> (vec text) query;
+   getManifesto: () -> (text) query;
+   getName: () -> (text) query;
+   sdds: () -> (text) query;
+   setManifesto: (text) -> ();
+ };
+service : () -> DAO

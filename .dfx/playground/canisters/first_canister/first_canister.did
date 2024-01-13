@@ -1,0 +1,4 @@
+service : {
+  readValue: () -> (text) query;
+  updateValue: () -> (text);
+}
